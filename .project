@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+<<<<<<< HEAD
+	<name>Phase2TestNg</name>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+	<name>seleniumDemo</name>
+=======
+	<name>JAVA-programs-Phase1</name>
+>>>>>>> ead2fe704b42d735cb5d0a3bac08d3e5895f6215
+=======
+	<name>antDemo</name>
+>>>>>>> 0de815f (ANT assisted practice)
+>>>>>>> e0be634c83b3391fcf3335bec9b19fa207b17a1f
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+<<<<<<< HEAD
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+=======
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+>>>>>>> e0be634c83b3391fcf3335bec9b19fa207b17a1f
+	</natures>
+</projectDescription>
