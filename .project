@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>lib</name>
 	<comment>Project lib created by Buildship.</comment>
+=======
+<<<<<<< HEAD
+	<name>Phase2TestNg</name>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+	<name>seleniumDemo</name>
+=======
+	<name>JAVA-programs-Phase1</name>
+>>>>>>> ead2fe704b42d735cb5d0a3bac08d3e5895f6215
+=======
+	<name>antDemo</name>
+>>>>>>> 0de815f (ANT assisted practice)
+>>>>>>> e0be634c83b3391fcf3335bec9b19fa207b17a1f
+	<comment></comment>
+>>>>>>> 8e6e893088fbe872bbdd27e1506c3aee9b0cc1e4
 	<projects>
 	</projects>
 	<buildSpec>
@@ -10,14 +27,29 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
+<<<<<<< HEAD
 		<buildCommand>
 			<name>org.eclipse.buildship.core.gradleprojectbuilder</name>
+=======
+<<<<<<< HEAD
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+>>>>>>> 8e6e893088fbe872bbdd27e1506c3aee9b0cc1e4
 			<arguments>
 			</arguments>
 		</buildCommand>
 	</buildSpec>
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
+<<<<<<< HEAD
 		<nature>org.eclipse.buildship.core.gradleprojectnature</nature>
+=======
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+=======
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+>>>>>>> e0be634c83b3391fcf3335bec9b19fa207b17a1f
+>>>>>>> 8e6e893088fbe872bbdd27e1506c3aee9b0cc1e4
 	</natures>
 </projectDescription>

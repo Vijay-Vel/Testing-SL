@@ -1,0 +1,135 @@
+========================================
+Adding a file to Local repo
+=====================================
+
+# git status
+
+# git add .
+
+OR
+
+# git add -a  // add all the files
+
+# git status
+
+# git commit -m "added file file1 and file2"
+
+==============================================
+
+Take an existing file which is tracked by GIT and do some modifications.
+Commit the changes to git
+====================================================
+
+Make changes in the file--> add some content in the file
+
+Edit the file
+
+# nano file1.java
+
+Insert any data
+
+To save and exit
+
+Press CTL x
+
+press y
+
+press enter key
+
+Now check git status:
+
+# git status
+
+======================================================
+
+To check the commit history on a git repository
+==================================================
+
+# git log
+
+# git log --oneline
+
+2. Move/copy/push your git log history in a new text file
+
+===============================================
+
+Take an exisitng file from local repo and 
+
+Delete it from Local repo and working directory
+
+
+# git ls-files
+
+Choose a filename to be deleted
+
+Execute the git delete command to delete a file from Local Repo and Working directory
+
+# git rm <filename>
+
+git rm file1.java
+
+File will be removed from LR and WD
+
+# git ls-files   // file will not be LR
+
+# ls                // file will not be in WD
+
+Commit the deletion of file:
+
+# git commit -m "deletion of file"
+
+# git log --oneline
+
+==================================================
+
+Revert command
+============================================
+
+1. File --> present in the LR and WD (old state1)
+
+File --> deleted the file from LR and WD (new state)
+
+we got a commit id --> commit2
+
+you want the file back
+
+git revert commit2
+
+Revert command will always work on a commit id
+
+Step 1: Create some files that we will ignore
+
+# touch file.txt file2.xml file3.log file4.class
+
+Step 2: Check the status of the files in GIT
+
+# git status
+
+files will be untracked, git is suggesting to add and commit them in local  repo
+
+Step 3: We do not want to add them or commit them, we want to ignore these files
+
+# nano .gitignore
+
+insert below text
+
+*.txt
+*.log
+*.xml
+*.class
+
+Save the file and exit
+
+press CTL x and press y  and press enter key
+
+
+In this file add names of the files to be ignored
+In this file names will added, 1 filename 1 line
+Suppose you want to ignore all xml files or all .class files, so entry in the file cna be made like
+
+*.xml
+*.class
+file.txt
+*.txt
+
+As you will save the file, git will start ignoring all the files

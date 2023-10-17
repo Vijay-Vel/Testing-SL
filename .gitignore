@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 # Ignore Gradle project-specific cache directory
 .gradle
 
 # Ignore Gradle build output directory
 build
+=======
+*.txt
+*.class
+*.log
+*.xml
+>>>>>>> 8e6e893088fbe872bbdd27e1506c3aee9b0cc1e4
