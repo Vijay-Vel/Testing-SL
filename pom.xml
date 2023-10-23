@@ -1,14 +1,26 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b26b925bb0e84b3db8a38fa9df56bb9dec4c2874
 <?xml version="1.0" encoding="UTF-8"?>
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+<<<<<<< HEAD
   <groupId>CucumberSureFireDemo</groupId>
   <artifactId>CucumberSureFireDemo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
   <name>CucumberSureFireDemo</name>
+=======
+  <groupId>Phase2CucumberDemo</groupId>
+  <artifactId>Phase2CucumberDemo</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+
+  <name>Phase2CucumberDemo</name>
+>>>>>>> b26b925bb0e84b3db8a38fa9df56bb9dec4c2874
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -19,14 +31,24 @@
   </properties>
 
   <dependencies>
+<<<<<<< HEAD
     <dependency>
+=======
+     <dependency>
+>>>>>>> b26b925bb0e84b3db8a38fa9df56bb9dec4c2874
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+<<<<<<< HEAD
     
     <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+=======
+  
+    
+  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+>>>>>>> b26b925bb0e84b3db8a38fa9df56bb9dec4c2874
 <dependency>
     <groupId>io.cucumber</groupId>
     <artifactId>cucumber-java</artifactId>
@@ -92,7 +114,11 @@
           <version>2.22.1</version>
           <configuration>
 			  <includes>
+<<<<<<< HEAD
 			  	<include>**/*Runner.java</include>
+=======
+			  	<include>**/TestRunner.java</include>
+>>>>>>> b26b925bb0e84b3db8a38fa9df56bb9dec4c2874
 		  	  </includes>
 		  </configuration>
         </plugin>
@@ -121,3 +147,24 @@
     </pluginManagement>
   </build>
 </project>
+<<<<<<< HEAD
+=======
+=======
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ATE-Phase2-Junit</groupId>
+  <artifactId>ATE-Phase2-Junit</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+	  <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-api</artifactId>
+    <version>5.9.3</version>
+    <scope>test</scope>
+</dependency>
+
+  </dependencies>
+</project>
+>>>>>>> 3bce4407dd2ab372e7299f09c6e9bb8f83484fbb
+>>>>>>> b26b925bb0e84b3db8a38fa9df56bb9dec4c2874
