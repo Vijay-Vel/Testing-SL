@@ -1,0 +1,35 @@
+become a root user:
+
+# sudo su -
+
+Create a working directory[folder]
+
+# mkdir myproject
+
+Go inside the directory
+
+# cd myproject
+
+create empty files
+
+# touch file1.java file2.java
+
+Create a local repo
+
+# git init
+
+===================================================
+
+git configurations:
+
+git config --global user.name vijay
+
+
+git config --global user.email vijay@gmail.com
+
+Find out the file/location where the git configuration are saved:
+================================
+
+local:
+
+global: cat ~/.gitconfig
