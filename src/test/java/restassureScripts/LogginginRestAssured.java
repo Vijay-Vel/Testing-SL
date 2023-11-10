@@ -9,7 +9,7 @@ public class LogginginRestAssured {
 	@Test(priority='1')
 	public void loggingmethods()
 	{
-		String PMapikey = "PMAK-65447eccf1f7d00038c23e3b-3111b494d8d9e645d19ab07e13eec77f30";
+		String PMapikey = "Postman API key";
 		given().baseUri("https://api.postman.com")
 		.basePath("/workspaces")
 		.header("X-API-Key", PMapikey)
