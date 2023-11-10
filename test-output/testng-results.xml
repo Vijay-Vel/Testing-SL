@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-10T12:14:07 IST" name="Default suite" finished-at="2023-11-10T12:14:07 IST" duration-ms="67">
+    <groups>
+    </groups>
+    <test started-at="2023-11-10T12:14:07 IST" name="Default test" finished-at="2023-11-10T12:14:07 IST" duration-ms="67">
+      <class name="restassureScripts.Log4jDemo">
+        <test-method signature="method1()[pri:0, instance:restassureScripts.Log4jDemo@4f2c9ba6]" started-at="2023-11-10T12:14:07 IST" name="method1" finished-at="2023-11-10T12:14:07 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+      </class> <!-- restassureScripts.Log4jDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
