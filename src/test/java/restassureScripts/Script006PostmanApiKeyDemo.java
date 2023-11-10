@@ -12,7 +12,7 @@ public class Script006PostmanApiKeyDemo {
 	@Test(priority='1')
 	public void postmangetreq()
 	{
-		String PMapikey = "PMAK-65447eccf1f7d00038c23e3b-3111b494d8d9e645d19ab07e13eec77f30";
+		String PMapikey = "Postman API key";
 		given().baseUri("https://api.postman.com")
 		.basePath("/workspaces")
 		.header("X-API-Key", PMapikey)
@@ -26,7 +26,7 @@ public class Script006PostmanApiKeyDemo {
 	@Test(priority='2')
 	public void extract_value_response()
 	{
-		String PMapikey = "PMAK-65447eccf1f7d00038c23e3b-3111b494d8d9e645d19ab07e13eec77f30";
+		String PMapikey = "Postman API key";
 		
 		String responseoutput = given().baseUri("https://api.postman.com")
 		.basePath("/workspaces")
@@ -45,7 +45,7 @@ public class Script006PostmanApiKeyDemo {
 	@Test(priority='3')
 	public void extract_response_JSONPath()
 	{
-		String PMapikey = "PMAK-65447eccf1f7d00038c23e3b-3111b494d8d9e645d19ab07e13eec77f30";
+		String PMapikey = "Postman API key";
 		
 		Response res = given().baseUri("https://api.postman.com")
 		.basePath("/workspaces")
