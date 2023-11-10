@@ -28,7 +28,7 @@ public class Script008GithubBearerToken {
 		
 	Response res=	given().baseUri("https://api.github.com")
 		.basePath("/repos/Vijay-Vel/Testing-SL")
-		.header("Authorization","Bearer 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")
+		.header("Authorization","Bearer Github Token")
 		.when().get()
 		.then().statusCode(200)
 		.extract().response();
