@@ -1,7 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>ATE-Phase2-RestAssured</name>
 	<comment></comment>
+=======
+<<<<<<< HEAD
+	<name>CucumberSureFireDemo</name>
+	<comment></comment>
+=======
+<<<<<<< HEAD
+	<name>Phase2CucumberDemo</name>
+	<comment></comment>
+=======
+<<<<<<< HEAD
+	<name>ATE-Phase2-Junit</name>
+	<comment></comment>
+=======
+<<<<<<< HEAD
+	<name>lib</name>
+	<comment>Project lib created by Buildship.</comment>
+=======
+<<<<<<< HEAD
+	<name>Phase2TestNg</name>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+	<name>seleniumDemo</name>
+=======
+	<name>JAVA-programs-Phase1</name>
+>>>>>>> ead2fe704b42d735cb5d0a3bac08d3e5895f6215
+=======
+	<name>antDemo</name>
+>>>>>>> 0de815f (ANT assisted practice)
+>>>>>>> e0be634c83b3391fcf3335bec9b19fa207b17a1f
+	<comment></comment>
+>>>>>>> 8e6e893088fbe872bbdd27e1506c3aee9b0cc1e4
+>>>>>>> e0e251fa61649ca4fa59efdbc4ddf725f81ddfb3
+>>>>>>> 3bce4407dd2ab372e7299f09c6e9bb8f83484fbb
+>>>>>>> b26b925bb0e84b3db8a38fa9df56bb9dec4c2874
+>>>>>>> 02a4b0ca7859f3c4580fecfabdf685b0a5fb4255
 	<projects>
 	</projects>
 	<buildSpec>
@@ -10,6 +47,13 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b26b925bb0e84b3db8a38fa9df56bb9dec4c2874
+>>>>>>> 02a4b0ca7859f3c4580fecfabdf685b0a5fb4255
 		<buildCommand>
 			<name>org.eclipse.m2e.core.maven2Builder</name>
 			<arguments>
@@ -22,13 +66,64 @@
 		</buildCommand>
 		<buildCommand>
 			<name>cucumber.eclipse.builder.gherkin</name>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+=======
+<<<<<<< HEAD
+		<buildCommand>
+			<name>org.eclipse.buildship.core.gradleprojectbuilder</name>
+=======
+<<<<<<< HEAD
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+>>>>>>> 8e6e893088fbe872bbdd27e1506c3aee9b0cc1e4
+>>>>>>> e0e251fa61649ca4fa59efdbc4ddf725f81ddfb3
+>>>>>>> 3bce4407dd2ab372e7299f09c6e9bb8f83484fbb
+>>>>>>> b26b925bb0e84b3db8a38fa9df56bb9dec4c2874
+>>>>>>> 02a4b0ca7859f3c4580fecfabdf685b0a5fb4255
 			<arguments>
 			</arguments>
 		</buildCommand>
 	</buildSpec>
 	<natures>
+<<<<<<< HEAD
 		<nature>cucumber.eclipse.nature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+=======
+<<<<<<< HEAD
+		<nature>cucumber.eclipse.nature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+=======
+<<<<<<< HEAD
+		<nature>cucumber.eclipse.nature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+=======
+		<nature>org.eclipse.jdt.core.javanature</nature>
+<<<<<<< HEAD
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+=======
+<<<<<<< HEAD
+		<nature>org.eclipse.buildship.core.gradleprojectnature</nature>
+=======
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+=======
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+>>>>>>> e0be634c83b3391fcf3335bec9b19fa207b17a1f
+>>>>>>> 8e6e893088fbe872bbdd27e1506c3aee9b0cc1e4
+>>>>>>> e0e251fa61649ca4fa59efdbc4ddf725f81ddfb3
+>>>>>>> 3bce4407dd2ab372e7299f09c6e9bb8f83484fbb
+>>>>>>> b26b925bb0e84b3db8a38fa9df56bb9dec4c2874
+>>>>>>> 02a4b0ca7859f3c4580fecfabdf685b0a5fb4255
 	</natures>
 </projectDescription>

@@ -1,14 +1,37 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b26b925bb0e84b3db8a38fa9df56bb9dec4c2874
+>>>>>>> 02a4b0ca7859f3c4580fecfabdf685b0a5fb4255
 <?xml version="1.0" encoding="UTF-8"?>
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+<<<<<<< HEAD
   <groupId>ATE-Phase3-RestAssured</groupId>
   <artifactId>ATE-Phase2-RestAssured</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
   <name>ATE-Phase2-RestAssured</name>
+=======
+<<<<<<< HEAD
+  <groupId>CucumberSureFireDemo</groupId>
+  <artifactId>CucumberSureFireDemo</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+
+  <name>CucumberSureFireDemo</name>
+=======
+  <groupId>Phase2CucumberDemo</groupId>
+  <artifactId>Phase2CucumberDemo</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+
+  <name>Phase2CucumberDemo</name>
+>>>>>>> b26b925bb0e84b3db8a38fa9df56bb9dec4c2874
+>>>>>>> 02a4b0ca7859f3c4580fecfabdf685b0a5fb4255
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -19,6 +42,7 @@
   </properties>
 
   <dependencies>
+<<<<<<< HEAD
 	  
 	   <dependency>
     <groupId>org.apache.logging.log4j</groupId>
@@ -95,13 +119,31 @@
 </dependency>
 
 <dependency>
+=======
+<<<<<<< HEAD
+    <dependency>
+=======
+     <dependency>
+>>>>>>> b26b925bb0e84b3db8a38fa9df56bb9dec4c2874
+>>>>>>> 02a4b0ca7859f3c4580fecfabdf685b0a5fb4255
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+<<<<<<< HEAD
     
    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+=======
+<<<<<<< HEAD
+    
+    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+=======
+  
+    
+  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+>>>>>>> b26b925bb0e84b3db8a38fa9df56bb9dec4c2874
+>>>>>>> 02a4b0ca7859f3c4580fecfabdf685b0a5fb4255
 <dependency>
     <groupId>io.cucumber</groupId>
     <artifactId>cucumber-java</artifactId>
@@ -125,6 +167,27 @@
     <version>7.10.1</version>
 </dependency>
 
+<<<<<<< HEAD
+=======
+   
+       <dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.11.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.4.1</version>
+</dependency>
+<dependency>
+			<groupId>tech.grasshopper</groupId>
+			<artifactId>extentreports-cucumber7-adapter</artifactId>
+			<version>1.7.0</version>
+		</dependency>
+>>>>>>> 02a4b0ca7859f3c4580fecfabdf685b0a5fb4255
   </dependencies>
 
   <build>
@@ -147,6 +210,18 @@
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>2.22.1</version>
+<<<<<<< HEAD
+=======
+          <configuration>
+			  <includes>
+<<<<<<< HEAD
+			  	<include>**/*Runner.java</include>
+=======
+			  	<include>**/TestRunner.java</include>
+>>>>>>> b26b925bb0e84b3db8a38fa9df56bb9dec4c2874
+		  	  </includes>
+		  </configuration>
+>>>>>>> 02a4b0ca7859f3c4580fecfabdf685b0a5fb4255
         </plugin>
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
@@ -173,3 +248,27 @@
     </pluginManagement>
   </build>
 </project>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ATE-Phase2-Junit</groupId>
+  <artifactId>ATE-Phase2-Junit</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+	  <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-api</artifactId>
+    <version>5.9.3</version>
+    <scope>test</scope>
+</dependency>
+
+  </dependencies>
+</project>
+>>>>>>> 3bce4407dd2ab372e7299f09c6e9bb8f83484fbb
+>>>>>>> b26b925bb0e84b3db8a38fa9df56bb9dec4c2874
+>>>>>>> 02a4b0ca7859f3c4580fecfabdf685b0a5fb4255
