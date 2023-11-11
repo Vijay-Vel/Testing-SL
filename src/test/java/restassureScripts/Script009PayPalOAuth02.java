@@ -13,8 +13,8 @@ String  accessToken;
 	@Test(priority='1')
 	public void GetAccessToekn()
 	{
-String clientID = "ATY5rN-v_CKlJ90LYmyoDqBk78taWZE1bZTY5w_M76Hytf5LrouUvkiLpblH0eKAqJxCck7VKCTCj6_0";
-String clinetsecret = "EJV7tLZqhaRuyXjAgzp25RDLBhvf1qKbrwonhfWvrCNFBQjRBLULvvhEooDxFsQ_wkP_ueURGJvG94H3";
+String clientID = "ClientID";
+String clinetsecret = "SecretKey";
 
               Response res = RestAssured.given()
             		  .baseUri("https://api-m.sandbox.paypal.com")
